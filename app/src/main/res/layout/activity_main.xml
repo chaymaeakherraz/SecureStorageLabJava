@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom"/>
+
+        <EditText
+            android:id="@+id/edtLang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Langue ex: fr"/>
+
+        <EditText
+            android:id="@+id/edtTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Thème ex: system"/>
+
+        <Button
+            android:id="@+id/btnSavePrefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sauvegarder SharedPreferences"/>
+
+        <Button
+            android:id="@+id/btnLoadPrefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lire SharedPreferences"/>
+
+        <EditText
+            android:id="@+id/edtToken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Token secret"/>
+
+        <Button
+            android:id="@+id/btnSaveToken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sauvegarder Token chiffré"/>
+
+        <Button
+            android:id="@+id/btnLoadToken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lire Token chiffré"/>
+
+        <Button
+            android:id="@+id/btnInternal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tester fichiers internes"/>
+
+        <Button
+            android:id="@+id/btnJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tester JSON Students"/>
+
+        <Button
+            android:id="@+id/btnCache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tester Cache"/>
+
+        <Button
+            android:id="@+id/btnExternal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tester stockage externe"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nettoyer données"/>
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Résultat..."
+            android:textSize="16sp"
+            android:paddingTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
